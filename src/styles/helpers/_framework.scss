@@ -1,0 +1,21 @@
+.h-screen {
+  height: 100vh;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-center-y {
+  display: flex;
+  align-items: center;
+}
+.transition-3 {
+  @include prefixer(transition, var(--time-transition));
+}
+.flex-1 {
+  flex: 1;
+}
+.pointer {
+  cursor: pointer;
+}
