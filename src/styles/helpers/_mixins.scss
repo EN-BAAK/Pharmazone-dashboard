@@ -1,8 +1,3 @@
-@mixin centering {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 @mixin keyf($anim-name) {
     @-webkit-keyframes #{$anim-name} {
         @content;
@@ -59,19 +54,6 @@
     filter: alpha(opacity = $opacity-ie);
     -webkit-filter: alpha(opacity = $opacity-ie);
     opacity: $value;
-}
-@mixin center-x {
-    left: 50%;
-    @include prefixer(transform, translateX(-50%));
-}
-@mixin center-y {
-    top: 50%;
-    @include prefixer(transform, translateY(-50%));
-}
-@mixin center {
-    top: 50%;
-    left: 50%;
-    @include prefixer(transform, translate(-50%, -50%));
 }
 @mixin same-scale($width) {
     width: $width;

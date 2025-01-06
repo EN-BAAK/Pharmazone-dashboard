@@ -1,10 +1,9 @@
 /* Helpers */
-@import "./styles/helpers/variables";
-@import "./styles/helpers/mixins";
-@import "./styles/helpers/framework";
+@use "./styles/helpers/variables";
+@use "./styles/helpers/framework";
 
 /* Global */
-@import "./styles/screens/global-rule";
+@use "./styles/screens/global-rule";
 
 /* Pages */
 
